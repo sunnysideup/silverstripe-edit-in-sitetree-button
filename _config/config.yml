@@ -4,6 +4,6 @@ After:
   - '#coreconfig'
 ---
 
-SilverStripe\CMS\Model\SiteTree:
+SilverStripe\Forms\GridField\GridFieldDetailForm_ItemRequest:
   extensions:
-    - Sunnysideup\EditeInSiteTree\Extension\EditPageInSiteTree
+    - Sunnysideup\EditeInSiteTreeButton\Extension\EditInSiteTreeButtonMaker
