@@ -1,0 +1,9 @@
+---
+Name: edit-in-sitetree-button
+After:
+  - '#coreconfig'
+---
+
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - Sunnysideup\EditeInSiteTree\Extension\EditPageInSiteTree
